@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo: Clique no Quadrado!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Clique no Quadrado!</h1>
+        <p>O quadrado aparece em posições aleatórias. Clique nele o mais rápido possível!</p>
+        <p>Tempo restante: <span id="timer">10</span> segundos</p>
+        <p>Você clicou <span id="score">0</span> vezes!</p>
+        <div id="gameArea">
+            <div id="target"></div>
+        </div>
+        <button onclick="startGame()">Iniciar Jogo</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
